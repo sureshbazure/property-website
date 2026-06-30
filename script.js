@@ -40,6 +40,13 @@ form.addEventListener("submit", async function(e){
 
 });
 
+fetch(SCRIPT_URL, {
+    method: "POST",
+    headers: {
+        "Content-Type": "text/plain"
+    },
+    body: JSON.stringify(data)
+})
 
 // ===== WHATSAPP BUTTON =====
 const whatsappNumber = "919999999999"; // change this
