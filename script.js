@@ -1,6 +1,6 @@
 
 // ===== GOOGLE SCRIPT URL =====
-const SCRIPT_URL = "PASTE_YOUR_GOOGLE_SCRIPT_URL_HERE";
+const SCRIPT_URL = https://sureshbazure.github.io/property-website/;
 
 // ===== FORM SUBMISSION =====
 const form = document.getElementById("enquiry");
