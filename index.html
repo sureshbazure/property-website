@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>2 BHK Luxury Apartment</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<div class="logo">🏠 Dream Home</div>
+
+<ul>
+<li><a href="#details">Details</a></li>
+<li><a href="#status">Price</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#video">Video</a></li>
+<li><a href="#location">Location</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+
+<img src="images/hero.jpg" alt="Property">
+
+<div class="overlay">
+<h1>2 BHK Luxury Apartment</h1>
+<p>Premium Home Available For Rent</p>
+
+<a href="#contact">
+<button class="hero-btn">Book a Visit</button>
+</a>
+
+</div>
+
+</section>
+
+<!-- STATUS -->
+<section id="status" class="status">
+
+<div><h2>₹25,000</h2><p>Monthly Rent</p></div>
+<div><h2>₹1.5L</h2><p>Deposit</p></div>
+<div><h2>1250 Sq.ft</h2><p>Area</p></div>
+<div><h2>Available</h2><p>Status</p></div>
+
+</section>
+
+<!-- DETAILS -->
+<section id="details" class="card">
+
+<h2>Property Details</h2>
+
+<table>
+<tr><td>Type</td><td>2 BHK Apartment</td></tr>
+<tr><td>Floor</td><td>2nd Floor</td></tr>
+<tr><td>Parking</td><td>Covered</td></tr>
+<tr><td>Furnishing</td><td>Semi Furnished</td></tr>
+</table>
+
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="card">
+
+<h2>Photo Gallery</h2>
+
+<div class="gallery">
+
+<img src="images/img1.jpg" class="gallery-img">
+<img src="images/img2.jpg" class="gallery-img">
+<img src="images/img3.jpg" class="gallery-img">
+<img src="images/img4.jpg" class="gallery-img">
+
+</div>
+
+</section>
+
+<!-- VIDEO -->
+<section id="video" class="card">
+
+<h2>Video Tour</h2>
+
+<video controls controlsList="nodownload" width="100%">
+<source src="videos/property.mp4" type="video/mp4">
+</video>
+
+</section>
+
+<!-- LOCATION -->
+<section id="location" class="card">
+
+<h2>Location</h2>
+
+<iframe
+src="YOUR_GOOGLE_MAP_LINK"
+width="100%"
+height="350"
+style="border:0;"
+loading="lazy">
+</iframe>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="card">
+
+<h2>Enquiry Form</h2>
+
+<form id="enquiry">
+
+<input type="text" placeholder="Full Name" required>
+<input type="tel" placeholder="Mobile Number" required>
+<input type="email" placeholder="Email">
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">Send Enquiry</button>
+
+</form>
+
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox hidden">
+<span id="close">&times;</span>
+<img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+
+
+<!-- FLOATING CALL -->
+<a href="tel:+919999999999" class="call-btn">📞</a>
+
+<!-- FLOATING WHATSAPP -->
+<a href="#" onclick="openWhatsApp()" class="wa-btn">💬</a>
+</body>
+</html>
